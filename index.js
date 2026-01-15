@@ -190,3 +190,42 @@ firstGameContainer.innerHTML += `<p>${fstGameName}</p>`;
 // do the same for the runner up item
 const sndGameName = sndGame.name;
 secondGameContainer.innerHTML += `<p>${sndGameName}</p>`;
+
+/************************************************************************************
+ *Additional Features
+ */
+
+ const categories = []
+
+ GAMES_JSON.forEach(game => {
+    if(!categories.includes(game.category)){
+        categories.push(game.category);
+    }
+ });
+
+
+ const categoryDropdown = document.getElementById("category-select");
+
+ function addCategoriesToSelector(categories) {
+   categories.forEach((category) => {
+        let option = `<option value="${category}">
+            ${category}</option>`;
+        categoryDropdown.innerHTML += option;
+   });     
+ }
+
+ addCategoriesToSelector(categories);
+
+ function showSelectedCategory(category){
+    deleteChildElements(gamesContainer);
+    if(category == "All"){
+        showAllGames();
+    }
+    const categoryGames = GAMES_JSON.filter( (game) => game.category == category);
+    addGamesToPage(categoryGames);
+ }
+
+ categoryDropdown.addEventListener("change", (event) => {
+    const selectedCategory = event.target.value;
+    showSelectedCategory(selectedCategory);
+ })

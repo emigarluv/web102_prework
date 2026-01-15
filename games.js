@@ -6,7 +6,8 @@ const games = ` [
     "pledged": 1572,
     "goal": 10000,
     "backers": 9,
-    "img": "./assets/heroes_of_mythic_americas.png"
+    "img": "./assets/heroes_of_mythic_americas.png",
+    "category": "Adventure"
   },
   {
     "name": "Cube Monster",
@@ -14,7 +15,8 @@ const games = ` [
     "pledged": 29446,
     "goal": 20000,
     "backers": 321,
-    "img": "./assets/cube_monster.png"
+    "img": "./assets/cube_monster.png",
+    "category" : "Strategy"
   },
   {
     "name": "Zoo Tycoon: The Board Game",
@@ -22,7 +24,8 @@ const games = ` [
     "pledged": 442602,
     "goal": 78480,
     "backers": 3869,
-    "img": "./assets/zoo_tycoon.png"
+    "img": "./assets/zoo_tycoon.png",
+    "category": "Strategy"
   },
   {
     "name": "Deity Tarot",
@@ -30,7 +33,8 @@ const games = ` [
     "pledged": 109,
     "goal": 8000,
     "backers": 3,
-    "img": "./assets/deity_tarot.png"
+    "img": "./assets/deity_tarot.png",
+    "category": "Chance"
   },
   {
     "name": "Camouflage | A hand-painting puzzle/adventure game",
@@ -38,7 +42,8 @@ const games = ` [
     "pledged": 698,
     "goal": 5140,
     "backers": 9,
-    "img": "./assets/camouflage.png"
+    "img": "./assets/camouflage.png",
+    "category": "Puzzle"
   },
   {
     "name": "Beep Bapp Boom",
@@ -46,7 +51,8 @@ const games = ` [
     "pledged": 44,
     "goal": 18133,
     "backers": 2,
-    "img": "./assets/beep_bapp_boom.png"
+    "img": "./assets/beep_bapp_boom.png",
+    "category": "Party"
   },
   {
     "name": "Frosthaven",
@@ -54,7 +60,8 @@ const games = ` [
     "pledged": 69608,
     "goal": 500000,
     "backers": 3193,
-    "img": "./assets/frosthaven.png"
+    "img": "./assets/frosthaven.png",
+    "category": "Adventure"
   },
   {
     "name": "Mislight - An Adventure Game With A Small Touch Of Thriller",
@@ -62,7 +69,8 @@ const games = ` [
     "pledged": 1036,
     "goal": 3099,
     "backers": 32,
-    "img": "./assets/mislight.png"
+    "img": "./assets/mislight.png",
+    "category": "Horror"
   },
   {
     "name": "How to Read Minds 2 Kit: Ellusionist x Peter Turner",
@@ -70,7 +78,8 @@ const games = ` [
     "pledged": 147975,
     "goal": 10000,
     "backers": 1039,
-    "img": "./assets/how_to_read_minds_2.png"
+    "img": "./assets/how_to_read_minds_2.png",
+    "category": "Party"
   },
   {
     "name": "A Wayfarer's Tale",
@@ -78,7 +87,8 @@ const games = ` [
     "pledged": 13039,
     "goal": 1183,
     "backers": 1446,
-    "img": "./assets/wayfarers_tale.png"
+    "img": "./assets/wayfarers_tale.png",
+    "category": "Adventure"
   },
   {
     "name": "Kingdom Death: Monster 1.5",
@@ -86,7 +96,8 @@ const games = ` [
     "pledged": 94139,
     "goal": 100000,
     "backers": 9264,
-    "img": "./assets/kingdom_death.png"
+    "img": "./assets/kingdom_death.png",
+    "category": "Horror"
   }
 ]
 `
@@ -97,7 +108,8 @@ const template = `
 "pledged": 0,
 "goal": 0,
 "backers": 0,
-"img": ""
+"img": "",
+"category": ""
 },
 `
 
