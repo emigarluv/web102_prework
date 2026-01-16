@@ -17,7 +17,6 @@ The following **required** functionality is completed:
 
 The following **optional** features are implemented:
 
-* [x] The UI was minimally updated to improve layout and readability.
 * [x] A category dropdown dynamically updates the displayed games based on the user’s selection.
 **Note:** To implement this feature, the `games.json` file was updated to include a new `category` field for each game.
 
@@ -25,10 +24,10 @@ The following **optional** features are implemented:
 
 Here's a walkthrough of implemented features:
 
-<img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
+<img src='assets/prework-walkthrough.mov' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 <!-- Replace this with whatever GIF tool you used! -->
-GIF created with ...  
+Video created with Mac Screen Recording
 <!-- Recommended tools:
 [Kap](https://getkap.co/) for macOS
 [ScreenToGif](https://www.screentogif.com/) for Windows
